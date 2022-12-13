@@ -7,6 +7,31 @@ Repo containing all tutorial files from "Procedurally generated NFTs: Being an a
 Find the full tutorial article available on the Chainstack blog:
 https://chainstack.com/procedurally-generated-nfts/
 
+## Usage
+Clone or fork this repo to a preferred location. Install dependencies by running in CLI:
+
+`npm install`
+
+Generate a new wallet address and key pair by running in CLI:
+
+`node keys.js`
+
+Check wallet balance by running in CLI:
+
+`node balance.js`
+
+Deploy the NFT minter smartcontract from the ABI & BIN files by running in CLI:
+
+`node deploy.js`
+
+Mint an NFT with the metadata from one of the JSON files by running in CLI:
+
+`node mint.js`
+
+Generate, merge and mint 3 image layers with corresponding metadata
+
+`node generate.js`
+
 ## File list
 * keys.js - Script to generate a wallet address and key pair
 * balance.js - Script to check the balance of a wallet address
