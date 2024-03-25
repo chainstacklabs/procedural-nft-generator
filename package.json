@@ -10,6 +10,6 @@
     "merge-images": "^2.0.0",
     "random-words": "^1.2.0",
     "text-to-image": "^5.2.0",
-    "web3": "^1.8.1"
+    "web3": "^4.6.0"
   }
 }
